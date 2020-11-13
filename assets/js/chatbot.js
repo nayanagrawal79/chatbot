@@ -1,20 +1,20 @@
 // Dicitionary of questions
 const questions = {
-    "1": "Does your partner make you nervous and/ or afraid?",
-    "2": "Are you more likely to be quiet since you had a partner?",
-    "3": "Does your partner tend to be more dominant in your relationship?",
-    "4": "Has your partner ever forced you to do something according to their wishes and / or threatened you when you refused to do something based on their wishes?",
-    "5": "Did your partner physically abuse you? Like hitting, kicking.",
-    "6": "Did your partner's physical abuse make it difficult for you to do activities or has caused you serious injury? ",
-    "7": "Has your partner been verbally abusive to you / called you derogatory names?",
-    "8": "Has your partner ever threatened to share your private photos and / or other private  documents?",
-    "9": "Has your partner ever distributed your personal documents (photos, videos, etc.) to other parties without your consent?",
-    "10": "Does your partner check on you often? (listening to your phone calls, checking the mileage in your car, calling your phone repeatedly when you’re not around).",
-    "11": "Does your partner restrict you from the things you want to do? (example: going out with friends, going to meetings) ",
-    "12": "Does your partner force you to do something embarrassing or humiliating (eg, forcing you to apologize, having to ask permission to use the car or to do something).",
-    "13": "Does your partner say they will deny it, if you tell someone that your partner hurt you?",
-    "14": "Does your partner often use you as the reason for conflicts?",
-    "15": "Do you have a fear of losing control of your body, mind, and future?"
+    "1": "Question 1",
+    "2": "Question 2",
+    "3": "Question 3",
+    "4": "Question 4",
+    "5": "Question 5",
+    "6": "Question 6",
+    "7": "Question 7",
+    "8": "Question 8",
+    "9": "Question 9",
+    "10": "Question 10",
+    "11": "Question 11",
+    "12": "Question 12",
+    "13": "Question 13",
+    "14": "Question 14",
+    "15": "Question 15"
 }
 
 // Dicitionary of answers
@@ -47,13 +47,13 @@ const score = () => {
 const returnFinalMessage = (score) => {
     let message = "";
     if (score >= 1 && score <= 5) {
-        message += "Your relationship has a low risk of becoming abusive. However, risks are still risks that must be prevented and minimized. The following are some articles in the laws and regulations in Indonesia as your guide in preventing these risks: If your partner is forcing and threatening you to do something: Article 335 Paragraph (1) of the Criminal Code. If your partner perform physical and / or psychological abuse against you: Article 352 Paragraph (2) Criminal Code; clause 22 Article 351 of the Criminal Code; Article 1365 of the Civil Code Threatens and / or has spread your personal content(s): Article 369 of the Criminal Code; Article 27 Paragraph (1) Article 45 Paragraph (1) Law Number 16 Year 2016 In addition, violent relationships can increase your risk of experiencing anxiety, depression, and various other psychological disorders. If you find that any of the following has happened to you, don't hesitate to seek help. You can contact the BullyId App team for further psychological counseling and / or legal assistance. ";
+        message += "message 1";
         return message;
     } else if (score >= 6 && score <= 10) {
-        message += "Your relationship has a moderate risk of becoming abusive which must be prevented and minimized. The following are some articles in the laws and regulations in Indonesia as your guide in preventing these risks: If your partner is forcing and threatening you to do something: Article 335 Paragraph (1) of the Criminal Code. If your partner perform physical and / or psychological abuse against you: Article 352 Paragraph (2) Criminal Code; clause 22 Article 351 of the Criminal Code; Article 1365 of the Civil Code Threatens and / or has spread your personal content(s): Article 369 of the Criminal Code; Article 27 Paragraph (1) Article 45 Paragraph (1) Law Number 16 Year 2016 In addition, violent relationships can increase your risk of experiencing anxiety, depression, and various other psychological disorders. If you find that any of the following has happened to you, don't hesitate to seek help. You can contact the BullyId App team for further psychological counseling and / or legal assistance.";
+        message += "message 2";
         return message;
     } else {
-        message += "Your relationship has a high risk of becoming abusive which must be prevented and followed up immediately because it has the potential to harm you physically and psychologically. Here are some articles in the laws and regulations in Indonesia as your guide in overcoming these risks: If your partner is forcing and threatening you to do something: Article 335 Paragraph (1) of the Criminal Code. If your partner perform physical and / or psychological abuse against you: Article 352 Paragraph (2) Criminal Code; clause 22 Article 351 of the Criminal Code; Article 1365 of the Civil Code Threatens and / or has spread your personal content(s): Article 369 of the Criminal Code; Article 27 Paragraph (1) Article 45 Paragraph (1) Law Number 16 Year 2016. In addition, violent relationships can increase your risk of experiencing anxiety, depression, and various other psychological disorders. For further action, you can contact the BullyId App team for psychological counseling and / or legal assistance.";
+        message += "message 3";
         return message;
     }
 }

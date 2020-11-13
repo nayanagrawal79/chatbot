@@ -1,0 +1,20 @@
+Here are the instructions for the deployment of the project on the github.
+
+STEP 1: CREATE or OPEN your github account.
+STEP 2: Create a PUBLIC repository for your website with the appropiate name.
+STEP 3: Push your code to the public repository by following commands.
+
+        git init // To initialize github repository.
+        git add . // To add your code for the website into the staging area of github for tracking of files.
+        git commit -m "message" // Commit your code to the github repository with appropiate commit message.
+
+        git remote add origin <github-repository-url> // To add the remote url for the repository.
+        git branch -M master // To create a master branch on the repository
+        git push -u origin master // To push your code to the repository
+
+STEP 5: After pushing the code onto the repository, refresh the code page in your repository to look for the code files.
+
+STEP 6: Click on the settings tab and scroll down to the github pages. Inside source select your branch as master instead of none and wait for 5mins for publishing your website.
+
+After the website is published following message would be displayed. 
+"Your site is published at https://user-name.github.io/repository-name/"
